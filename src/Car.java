@@ -1,4 +1,7 @@
-package PACKAGE_NAME;
-
-public class Car {
+public class Car extends Transport
+{
+    public void move()
+    {
+        System.out.println("И машинка едет!");
+    }
 }

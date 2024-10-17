@@ -1,4 +1,7 @@
-package PACKAGE_NAME;
-
-public class Dog {
+public class Dog implements Animal
+{
+    public void makeSound()
+    {
+        System.out.println("gavgavgavgavgavgavgavgavgavgavgavgavgavgavgavgavgavgavgavgavgavgavgavgavgav");
+    }
 }

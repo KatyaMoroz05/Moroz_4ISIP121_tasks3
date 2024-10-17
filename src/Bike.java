@@ -1,4 +1,7 @@
-package PACKAGE_NAME;
-
-public class Bike {
+public class Bike
+{
+    public void move()
+    {
+        System.out.println("И велосипед едет!");
+    }
 }

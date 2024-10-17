@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
-
-public class Transport {
+public abstract class Transport
+{
+    public abstract void move();
 }

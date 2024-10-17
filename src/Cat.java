@@ -1,4 +1,7 @@
-package PACKAGE_NAME;
-
-public class Cat {
+public class Cat implements Animal
+{
+    public void makeSound()
+    {
+        System.out.println("Miiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiuuuuuuuuuuuuuuuuuuu");
+    }
 }
